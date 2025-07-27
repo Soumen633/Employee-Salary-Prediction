@@ -350,4 +350,10 @@ print(f"Final RMSE: ${np.sqrt(mse_best):.2f}")
 print(f"Mean Absolute Error: ${mae_best:.2f}")
 print("="*60)
 
+# Save the model (optional)
+import joblib
+joblib.dump(rf_best, 'random_forest_salary_predictor.pkl')
+joblib.dump(scaler, 'salary_scaler.pkl')
+print("\nModel and scaler saved successfully!")
+
 print("\n✅ Analysis completed successfully!")
