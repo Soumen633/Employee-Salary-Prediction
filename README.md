@@ -23,19 +23,18 @@ This project implements a **Random Forest Regressor** to predict **data scientis
 - matplotlib  
 - joblib  
 
-### Install dependencies
+### ✅ Install Dependencies
 ```bash
 pip install pandas numpy scikit-learn seaborn matplotlib joblib
-
-###Usage
+```
+🚀 Usage
 1. Prepare the Data
 Place eda_data.csv in your working directory.
 
 2. Run the Script
-bash
-Copy
-Edit
+```bash
 python rf_salary_predictor.py
+```
 This will:
 
 Load and preprocess the data
@@ -53,10 +52,10 @@ Visualize results
 Save the trained model and scaler
 
 📈 Outputs
-Console summary of steps, metrics, and key findings
+Console
+Summary of steps, metrics, and key findings
 
-Visualizations:
-
+Visualizations
 Actual vs Predicted Salary (scatter plot)
 
 Residual Error Plot
@@ -67,8 +66,7 @@ Salary Distribution (Actual vs Predicted)
 
 Model Comparison and Learning Curve
 
-Saved Files:
-
+Saved Files
 random_forest_salary_predictor.pkl
 
 salary_scaler.pkl
@@ -101,5 +99,3 @@ Salary Predictions: Visualized against actual values
 📦 Model Serving (Optional)
 Use the exported .pkl model and scaler in deployment scripts or web apps to predict salaries on new job listings.
 
-🤝 Contributions
-Feel free to fork, open issues, or submit PRs. Contributions are welcome!
