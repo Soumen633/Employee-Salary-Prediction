@@ -7,7 +7,7 @@ This project implements a **Random Forest Regressor** to predict **data scientis
 ## 📁 Files
 
 - `eda_data.csv`: Dataset of data science job postings and features  
-- `rf_salary_predictor.py`: Main script for preprocessing, training, and visualizations  
+- `model.py`: Main script for preprocessing, training, and visualizations  
 - `random_forest_salary_predictor.pkl`: Trained Random Forest model  
 - `salary_scaler.pkl`: Feature scaler for new predictions  
 
